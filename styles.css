@@ -397,8 +397,8 @@ footer {
 }
 
 .footer-social img {
-    width: 32px;   /* Puedes ajustar el tamaño según tu diseño */
-    height: auto;  /* Mantiene la proporción original de la imagen */
+    width: 32px;   
+    height: auto;  
     display: inline-block;
     vertical-align: middle;
     transition: transform 0.2s ease; /* Añade un pequeño efecto al pasar el cursor */
