@@ -340,6 +340,61 @@ header img {
     color: var(--just-white);
 }
 
+footer {
+    background-color: #111;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-container div {
+    margin-bottom: 20px;
+}
+
+.footer-about, .footer-links, .footer-social {
+    flex: 1;
+}
+
+.footer-about p {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-social a {
+    margin: 0 10px;
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 14px;
+}
 
 
 
